@@ -1,0 +1,10 @@
+npm install @capacitor/cli @capacitor/core
+npx cap init
+npm install @capacitor/android
+npx cap add android
+npm install @capacitor/camera @capacitor/filesystem @capacitor/preferences
+npm install @capacitor/network
+npm run build
+npx cap sync
+npx cap copy
+npx cap open android
